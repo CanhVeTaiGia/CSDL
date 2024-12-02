@@ -1,0 +1,29 @@
+1. Lưu trữ danh sách sinh viên theo thứ tự nhập vào:
+ Cấu trúc dữ liệu phù hợp: Danh sách liên kết (Linked List)
+ Lý do:
+	Thứ tự nhập: Danh sách liên kết dễ dàng thêm, xóa phần tử ở bất kỳ vị trí nào mà không làm ảnh hưởng đến các phần tử khác, đảm bảo thứ tự nhập ban đầu.
+	Độ linh hoạt: Danh sách liên kết không yêu cầu kích thước cố định như mảng, nên phù hợp với trường hợp số lượng sinh viên thay đổi.
+
+2. Tìm kiếm nhanh tên một sản phẩm trong danh sách hàng triệu sản phẩm:
+ Cấu trúc dữ liệu phù hợp: Bảng băm (Hash Table)
+ Lý do:
+	Tốc độ tìm kiếm nhanh: Bảng băm cho phép truy cập trực tiếp đến phần tử dựa trên khóa (tên sản phẩm), thời gian trung bình là O(1).
+	Xử lý lượng lớn dữ liệu: Bảng băm rất hiệu quả khi làm việc với lượng dữ liệu lớn như danh sách hàng triệu sản phẩm.
+
+3. Quản lý danh sách các task công việc cần xử lý theo thứ tự ưu tiên:
+ Cấu trúc dữ liệu phù hợp: Heap
+ Lý do:
+	Ưu tiên: Heap là một cây nhị phân hoàn hảo, luôn duy trì tính chất heap (mọi nút con đều nhỏ hơn/lớn hơn nút cha). Điều này giúp ta dễ dàng tìm và lấy ra phần tử có 	ưu tiên cao nhất (hoặc thấp nhất) một cách nhanh chóng.
+	Sắp xếp: Heap tự động sắp xếp các phần tử theo thứ tự ưu tiên, giúp quản lý danh sách task hiệu quả.
+
+4. Lưu trữ dữ liệu hệ thống phân cấp như thư mục máy tính:
+ Cấu trúc dữ liệu phù hợp: Cây (Tree)
+ Lý do:
+	Phân cấp: Cây thể hiện rõ ràng mối quan hệ cha-con giữa các thư mục, giúp mô hình hóa cấu trúc phân cấp.
+	Tìm kiếm: Các thuật toán duyệt cây (DFS, BFS) giúp tìm kiếm file/thư mục một cách hiệu quả.
+
+5. Tìm đường đi ngắn nhất giữa 2 điểm trên bản đồ:
+ Cấu trúc dữ liệu phù hợp: Đồ thị (Graph)
+ Lý do:
+	Mối quan hệ: Đồ thị mô tả mối quan hệ giữa các điểm (đỉnh) và các đường đi (cạnh) trên bản đồ.
+	Thuật toán: Các thuật toán tìm đường đi ngắn nhất như Dijkstra, A* có thể được áp dụng trên đồ thị để giải quyết vấn đề này.
