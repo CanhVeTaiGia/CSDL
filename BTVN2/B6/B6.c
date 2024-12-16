@@ -19,13 +19,13 @@ int main()
         printf("arr2[%d] = ", i);
         scanf("%d", &arr2[i]);
     }
-    printf("Hai mang la:\n arr1[");
+    printf("Hai mang la:\n arr1 = [");
     for(int i = 0; i < m - 1; i++){
         printf("%d,", arr1[i]);
     }
     printf("%d]\n", arr1[m - 1]);
     
-    printf("arr2[");
+    printf("arr2 = [");
     for(int i = 0; i < n - 1; i++){
         printf("%d,", arr2[i]);
     }
